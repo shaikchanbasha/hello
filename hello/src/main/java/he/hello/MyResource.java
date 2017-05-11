@@ -20,7 +20,7 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-       
+       System.out.println("jbvalksgna  n");
     	System.out.println("ffhuui");
     	return "Got it!";
     }
